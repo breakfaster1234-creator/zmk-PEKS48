@@ -43,19 +43,19 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q       &kp W     &kp E     &kp R             &kp T              &kp Y            &kp U        &kp I         &kp O           &kp P           &kp BACKSPACE
-&kp LCTRL         &kp A       &kp S     &kp D     &kp F             &kp G              &kp H            &kp J        &kp K         &kp L           &kp SEMICOLON   &kp MINUS
-&kp LSHIFT        &kp Z       &kp X     &kp C     &kp V             &kp B              &kp N            &kp M        &kp COMMA     &kp DOT         &kp UP_ARROW    &kp SLASH
-&kp LEFT_COMMAND  &kp ESCAPE  &kp LWIN  &kp LALT  &mt LSHIFT SPACE  &lt 1 JP_HANZEN    &lt 2 BACKSPACE  &lt 3 ENTER  &kp JP_QUOTE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp TAB           &kp Q  &kp W  &kp E     &kp R             &kp T        &kp Y            &kp U             &kp I           &kp O         &kp P           &kp MINUS
+&kp LCTRL         &kp A  &kp S  &kp D     &kp F             &kp G        &kp H            &kp J             &kp K           &kp L         &kp SEMICOLON   &kp ENTER
+&kp LSHIFT        &kp Z  &kp X  &kp C     &kp V             &kp B        &kp N            &kp M             &kp COMMA       &kp DOT       &kp SLASH       &kp UNDERSCORE
+&kp LEFT_COMMAND  &none  &none  &kp LALT  &lt 1 LANGUAGE_2  &kp SPACE    &lt 2 BACKSPACE  &lt 3 LANGUAGE_1  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &trans        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp JP_COLON  &kp JP_UNDERSCORE
-&trans  &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &trans        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PIPE      &trans
-&trans  &trans        &trans        &trans           &trans           &trans          &trans        &kp NUMBER_0  &kp JP_DQUOTE  &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp AT_SIGN  &kp LEFT_BRACKET
+&trans  &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &trans        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp COLON    &kp RIGHT_BRACKET
+&trans  &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &trans        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &trans       &trans
+&trans  &trans        &trans        &trans           &trans           &trans          &trans        &kp NUMBER_0  &kp JP_DQUOTE  &trans        &trans       &trans
             >;
         };
 
@@ -70,7 +70,7 @@
 
         layer_3 {
             bindings = <
-&trans          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5    &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&kp ESCAPE      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5    &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
 &trans          &trans        &trans        &trans        &trans        &trans    &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &kp F12
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans    &trans  &trans          &kp DOWN_ARROW  &trans           &trans   &trans
 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans  &trans          &trans          &trans           &trans   &kp LA(F4)
